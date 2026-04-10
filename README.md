@@ -1,6 +1,11 @@
-# lightning-code-new
+# Lightning
 
-Prototype C++ code that implements the **Lightning PCS**, it uses **Brakedown** as the inner code. 
+Paper: Lightning, Field-Agnostic Super-Efficient
+Polynomial Commitment Scheme (`https://eprint.iacr.org/2026/258.pdf`).
+
+
+Prototype C++ code that implements the **Lightning PCS**, it uses **Brakedown** as the inner code.
+
 
 
 ## Dependencies
@@ -29,4 +34,3 @@ Lightning-related parameters currently live as constants near the top of `lightn
 
 - `poly_var`: number of variables (default `24`)
 - `delta`: the target Lightning code distance
-
