@@ -19,18 +19,13 @@ Prototype C++ code that implements the **Lightning PCS**, it uses **Brakedown** 
 From the project root:
 
 ```bash
-g++ -O2 -std=c++17 -o lightning brakedown.cpp lightning_brakedown.cpp -lmcl -lgmp -lcrypto
+g++ -O2 -std=c++17 -o lightning brakedown.cpp lightning.cpp -lmcl -lgmp -lcrypto
 ```
 
 ## Run
 
 ```bash
-./lightning
+./lightning 24 0.004
 ```
 
-## Parameters
 
-Lightning-related parameters currently live as constants near the top of `lightning_brakedown.cpp`:
-
-- `poly_var`: number of variables (default `24`)
-- `delta`: the target Lightning code distance
