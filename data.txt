@@ -1,0 +1,57 @@
+nohup: ignoring input
+===== poly_var=24 delta=0.004 =====
+=== Lightning PCS (Brakedown inner code) ===
+poly_var=24  delta=0.004
+alpha=0.274  degree=9  t=46756
+COLUMN_NUMBER=524288  ROW_NUMBER=32
+right_size=143655  second_len=262144
+codeword_len=786432
+LDPC aggregate time = 7127 ms
+Brakedown inner encode time = 6744 ms
+Hash time = 1049 ms
+Total Commit time = 14920 ms
+Open time = 2376 ms
+Verifier time = 1254 ms
+Proof size: 101 MB
+===== poly_var=26 delta=0.004 =====
+=== Lightning PCS (Brakedown inner code) ===
+poly_var=26  delta=0.004
+alpha=0.274  degree=9  t=46756
+COLUMN_NUMBER=1048576  ROW_NUMBER=64
+right_size=287310  second_len=424763
+codeword_len=1473339
+LDPC aggregate time = 25490 ms
+Brakedown inner encode time = 13988 ms
+Hash time = 2697 ms
+Total Commit time = 42175 ms
+Open time = 10589 ms
+Verifier time = 3139 ms
+Proof size: 200 MB
+===== poly_var=28 delta=0.004 =====
+=== Lightning PCS (Brakedown inner code) ===
+poly_var=28  delta=0.004
+alpha=0.274  degree=9  t=46756
+COLUMN_NUMBER=2097152  ROW_NUMBER=128
+right_size=574620  second_len=849525
+codeword_len=2946677
+LDPC aggregate time = 97215 ms
+Brakedown inner encode time = 55208 ms
+Hash time = 8471 ms
+Total Commit time = 160895 ms
+Open time = 42025 ms
+Verifier time = 9406 ms
+Proof size: 400 MB
+===== poly_var=30 delta=0.004 =====
+=== Lightning PCS (Brakedown inner code) ===
+poly_var=30  delta=0.004
+alpha=0.274  degree=9  t=46756
+COLUMN_NUMBER=4194304  ROW_NUMBER=256
+right_size=1149240  second_len=1699050
+codeword_len=5893354
+LDPC aggregate time = 401408 ms
+Brakedown inner encode time = 287205 ms
+Hash time = 31567 ms
+Total Commit time = 720181 ms
+Open time = 179507 ms
+Verifier time = 32302 ms
+Proof size: 801 MB
